@@ -1,0 +1,20 @@
+{
+  "name": "checklist-design",
+  "interface": {
+    "displayName": "Checklist Design"
+  },
+  "plugins": [
+    {
+      "name": "checklist-design",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
