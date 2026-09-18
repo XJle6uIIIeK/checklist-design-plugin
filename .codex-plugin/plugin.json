@@ -1,0 +1,38 @@
+{
+  "name": "checklist-design",
+  "version": "3.2.1",
+  "description": "Review UI and UX against Checklist Design's bundled checklists, with systematic audit and quick critique modes.",
+  "author": {
+    "name": "Checklist Design",
+    "url": "https://www.checklist.design/"
+  },
+  "homepage": "https://www.checklist.design/",
+  "license": "MIT",
+  "keywords": [
+    "design-review",
+    "ui",
+    "ux",
+    "accessibility",
+    "checklists",
+    "audit"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Checklist Design",
+    "shortDescription": "Audit and critique UI with 125 bundled design checklists",
+    "longDescription": "Review websites, web apps, mobile apps, user flows, and design-system components against Checklist Design's bundled checklists. Use audit mode for item-by-item coverage checks or critique mode for concise design feedback.",
+    "developerName": "Checklist Design",
+    "category": "Productivity",
+    "capabilities": [
+      "Design review",
+      "UI audit",
+      "UX critique"
+    ],
+    "websiteURL": "https://www.checklist.design/",
+    "defaultPrompt": [
+      "Audit this UI against the most relevant Checklist Design checklist.",
+      "Critique this screen's hierarchy, layout, typography, accessibility, and polish.",
+      "Check what's missing from this flow before I ship it."
+    ]
+  }
+}
